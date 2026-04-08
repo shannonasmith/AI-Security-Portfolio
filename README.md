@@ -28,7 +28,7 @@ Each project builds on the previous one to simulate increasingly realistic SOC c
 
 ---
 
-### 🔍 Phase 1 — [SOC Alert Analyzer](https://github.com/shannonasmith/AI-Assisted-SOC-Alert-Analyzer)  
+### 🔍 Phase 1 — 🔗 [SOC Alert Analyzer](https://github.com/shannonasmith/AI-Assisted-SOC-Alert-Analyzer)  
 **Focus:** alert parsing and triage  
 
 Simulates how a SOC analyst processes raw alerts, assigns severity, and identifies suspicious activity.
@@ -42,7 +42,7 @@ Simulates how a SOC analyst processes raw alerts, assigns severity, and identifi
 
 ---
 
-### 🛡️ Phase 2 — [ATT&CK Mapping Engine](https://github.com/shannonasmith/AI-Assisted-SOC-MITRE-ATTACK-Mapping-Engine)  
+### 🛡️ Phase 2 — 🔗 [ATT&CK Mapping Engine](https://github.com/shannonasmith/AI-Assisted-SOC-MITRE-ATTACK-Mapping-Engine)  
 **Focus:** classification and structured detection  
 
 Expands into a detection engineering pipeline using retrieval and scoring techniques.
@@ -57,7 +57,7 @@ Expands into a detection engineering pipeline using retrieval and scoring techni
 
 ---
 
-### 🤖 Phase 3 — [Agentic SOC Investigation Engine](https://github.com/shannonasmith/Agentic-SOC-Investigation-Engine)  
+### 🤖 Phase 3 — 🔗 [Agentic SOC Investigation Engine](https://github.com/shannonasmith/Agentic-SOC-Investigation-Engine)  
 **Focus:** investigation, reasoning, and decision support  
 
 Simulates a modern SOC workflow that enriches alerts, correlates activity, and recommends actions.
