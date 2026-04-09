@@ -61,12 +61,14 @@ The goal of these projects is to demonstrate:
 | Role | SOC analyst simulation |
 | Output | Structured alert analysis |
 
-**Key Capabilities**
+**🧩 Key Capabilities**
 - alert parsing  
 - severity scoring  
 - MITRE ATT&CK mapping  
 - response recommendations  
+- multi-alert correlation  
 - investigation validation  
+- optional AI enrichment   
 
 ---
 
@@ -80,13 +82,13 @@ The goal of these projects is to demonstrate:
 | Role | Detection engineering pipeline |
 | Output | Ranked ATT&CK techniques |
 
-**Key Capabilities**
+**🧩 Key Capabilities**
 - normalization pipeline  
-- TF-IDF retrieval  
-- embedding similarity  
+- candidate retrieval (TF-IDF)  
+- embedding-based reranking  
 - hybrid scoring engine  
-- ATT&CK ranking  
-- explainability  
+- ATT&CK technique ranking  
+- explainable detection outputs  
 
 ---
 
@@ -100,7 +102,7 @@ The goal of these projects is to demonstrate:
 | Role | SOC analyst + automation system |
 | Output | Investigation + response recommendation |
 
-**Key Capabilities**
+**🧩 Key Capabilities**
 - alert correlation  
 - IOC enrichment  
 - vulnerability context  
