@@ -1,6 +1,14 @@
-# 🛡️ AI Security Portfolio
+<div align="center">
 
-A portfolio of cybersecurity projects demonstrating the evolution of a Security Operations Center (SOC) system from **alert analysis → detection engineering → agentic investigation**.
+# 🛡️ AI Security Portfolio  
+
+## 🧠 SOC Systems • Detection Engineering • Agentic Investigation
+
+![Focus](https://img.shields.io/badge/Focus-SOC%20Analysis%20%7C%20ATT%26CK%20%7C%20Automation-blue?style=for-the-badge)
+![Approach](https://img.shields.io/badge/Approach-Detection%20→%20Investigation%20→%20Decision-success?style=for-the-badge)
+![Tech](https://img.shields.io/badge/Tech-Python%20%7C%20NLP%20%7C%20MITRE-black?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -10,17 +18,32 @@ A portfolio of cybersecurity projects demonstrating the evolution of a Security 
   <img src="images/soc-system-evolution.png" width="1000">
 </div>
 
+<p align="center"><em>Progression from alert parsing → classification → investigation → decision support.</em></p>
+
 ---
 
-## 🎯 What This Portfolio Demonstrates
+## 🧠 Purpose
 
-This portfolio shows how a SOC system can evolve across three key stages:
+This portfolio demonstrates how a Security Operations Center (SOC) system evolves across multiple stages:
 
-- **Alert Analysis** — understanding and triaging security events  
-- **Detection Engineering** — mapping behavior to MITRE ATT&CK  
-- **Investigation & Response** — correlating, enriching, and reasoning about threats  
+| Stage | Description |
+|------|------------|
+| Alert Analysis | Understanding and triaging security events |
+| Detection Engineering | Mapping behavior to MITRE ATT&CK |
+| Investigation | Correlating and enriching alerts |
+| Decision Support | Recommending response actions |
 
-Each project builds on the previous one to simulate increasingly realistic SOC capabilities.
+---
+
+## 🎯 Objective
+
+The goal of these projects is to demonstrate:
+
+- how alerts are analyzed and triaged  
+- how activity maps to MITRE ATT&CK  
+- how detection pipelines improve accuracy  
+- how investigation workflows add context  
+- how systems evolve toward AI-assisted decision-making  
 
 ---
 
@@ -28,12 +51,17 @@ Each project builds on the previous one to simulate increasingly realistic SOC c
 
 ---
 
-### 🔍 Phase 1 — 🔗 [SOC Alert Analyzer](https://github.com/shannonasmith/AI-Assisted-SOC-Alert-Analyzer)  
-**Focus:** alert parsing and triage  
+### 🔍 Phase 1 — [SOC Alert Analyzer](https://github.com/shannonasmith/AI-Assisted-SOC-Alert-Analyzer) 🔗  
 
-Simulates how a SOC analyst processes raw alerts, assigns severity, and identifies suspicious activity.
+![Focus](https://img.shields.io/badge/Focus-Triage%20%7C%20Analysis-blue)
 
-**Key capabilities**
+| Category | Details |
+|---------|--------|
+| Focus | Alert parsing and triage |
+| Role | SOC analyst simulation |
+| Output | Structured alert analysis |
+
+**Key Capabilities**
 - alert parsing  
 - severity scoring  
 - MITRE ATT&CK mapping  
@@ -42,35 +70,45 @@ Simulates how a SOC analyst processes raw alerts, assigns severity, and identifi
 
 ---
 
-### 🛡️ Phase 2 — 🔗 [ATT&CK Mapping Engine](https://github.com/shannonasmith/AI-Assisted-SOC-MITRE-ATTACK-Mapping-Engine)  
-**Focus:** classification and structured detection  
+### 🛡️ Phase 2 — [ATT&CK Mapping Engine](https://github.com/shannonasmith/AI-Assisted-SOC-MITRE-ATTACK-Mapping-Engine) 🔗  
 
-Expands into a detection engineering pipeline using retrieval and scoring techniques.
+![Focus](https://img.shields.io/badge/Focus-Detection%20Engineering-green)
 
-**Key capabilities**
+| Category | Details |
+|---------|--------|
+| Focus | Classification and structured detection |
+| Role | Detection engineering pipeline |
+| Output | Ranked ATT&CK techniques |
+
+**Key Capabilities**
 - normalization pipeline  
 - TF-IDF retrieval  
 - embedding similarity  
 - hybrid scoring engine  
-- ATT&CK technique ranking  
-- improved explainability  
+- ATT&CK ranking  
+- explainability  
 
 ---
 
-### 🤖 Phase 3 — 🔗 [Agentic SOC Investigation Engine](https://github.com/shannonasmith/Agentic-SOC-Investigation-Engine)  
-**Focus:** investigation, reasoning, and decision support  
+### 🤖 Phase 3 — [Agentic SOC Investigation Engine](https://github.com/shannonasmith/Agentic-SOC-Investigation-Engine) 🔗  
 
-Simulates a modern SOC workflow that enriches alerts, correlates activity, and recommends actions.
+![Focus](https://img.shields.io/badge/Focus-Investigation%20%7C%20Automation-red)
 
-**Key capabilities**
+| Category | Details |
+|---------|--------|
+| Focus | Investigation and decision support |
+| Role | SOC analyst + automation system |
+| Output | Investigation + response recommendation |
+
+**Key Capabilities**
 - alert correlation  
 - IOC enrichment  
 - vulnerability context  
 - asset context  
 - SOAR playbooks  
 - investigation loop  
-- response recommendation
-  
+- response recommendation  
+
 ---
 
 ## 📈 Capability Progression
@@ -79,54 +117,66 @@ Simulates a modern SOC workflow that enriches alerts, correlates activity, and r
 Alert Parsing → Classification → Investigation → Decision
 ```
 
-Each phase increases:
+---
 
-- context  
-- accuracy  
-- automation  
-- analyst support  
+## 🧠 SOC Workflow Alignment
+
+| Stage | Capability |
+|------|-----------|
+| Alert Generation | Raw logs and SIEM alerts |
+| Triage | Severity scoring and classification |
+| Mapping | ATT&CK technique identification |
+| Correlation | Linking related activity |
+| Investigation | Context enrichment and validation |
+| Response | Decision-making and action |
 
 ---
 
-## 🧠 Why This Matters
+## 🧩 System Design Insight
 
-Modern SOCs are evolving toward:
+These projects are not isolated tools — they represent a **progressive SOC architecture**:
 
-- context-aware detection  
-- automated investigation pipelines  
-- explainable AI-assisted analysis  
-- decision-support systems  
-
-This portfolio reflects that evolution from foundational analysis to **agentic security operations**.
+- Phase 1 → establishes alert understanding  
+- Phase 2 → improves detection accuracy  
+- Phase 3 → enables reasoning and decision-making  
 
 ---
 
-## 🛠️ Technologies Used
+## 💡 Key Takeaways
 
-- Python  
-- MITRE ATT&CK  
-- TF-IDF / NLP  
-- Sentence Transformers  
-- Zeek  
-- Splunk-style workflows  
-- Rule-based detection  
-- SOAR concepts  
-- AI-assisted analysis  
+- structured triage improves consistency  
+- detection depends on strong mapping and scoring  
+- correlation is critical for investigation  
+- reasoning enables better decision-making  
+- AI enhances workflows, not replaces them  
 
 ---
 
-## 🚀 Current Focus
+## 🛠️ Tech Stack
 
-Continuing to expand these systems toward:
+| Category | Tools |
+|--------|------|
+| Language | Python |
+| Frameworks | NLP, TF-IDF, embeddings |
+| Security | MITRE ATT&CK |
+| Data Sources | Zeek, Splunk-style logs |
+| Methods | Rule-based + AI-assisted analysis |
+
+---
+
+## 🚀 Current Direction
 
 - real-time ingestion  
 - improved enrichment  
-- stronger reasoning capabilities  
-- reusable SOC automation workflows  
+- stronger reasoning systems  
+- reusable SOC automation  
 
 ---
+
+<div align="center">
 
 ## 👤 Shannon Smith  
 
 Cybersecurity | SOC Operations • Detection Engineering • Incident Response • AI-Assisted Security  
-U.S. Navy Veteran | Virginia Tech — M.S. Information Technology
+
+</div>
