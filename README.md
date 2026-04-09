@@ -15,7 +15,7 @@
 ## 🧭 SOC System Evolution
 
 <div align="center">
-  <img src="images/soc-system-evolution.png" width="1000">
+  <img src="images/soc-system-evolution.png" width="900">
 </div>
 
 <p align="center"><em>Progression from alert parsing → classification → investigation → decision support.</em></p>
