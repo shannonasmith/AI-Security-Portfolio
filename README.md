@@ -113,15 +113,9 @@ The goal of these projects is to demonstrate:
 
 ---
 
-## 📈 Capability Progression
-
-```text
-Alert Parsing → Classification → Investigation → Decision
-```
-
----
-
 ## 🧠 SOC Workflow Alignment
+
+How the system maps to real-world SOC operations:
 
 | Stage | Capability |
 |------|-----------|
